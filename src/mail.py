@@ -1,7 +1,7 @@
 import smtplib
 from os import getenv
 
-port = 587
+port = 465
 server = 'saturn.kreativmedia.ch'
 password = getenv('MAIL_PASSWORD')
 login = getenv('MAIL_LOGIN')
